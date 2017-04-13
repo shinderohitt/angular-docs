@@ -48,8 +48,8 @@ apis:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://dev.apollodata.com/angular2
-root: /angular2/
+url: http://dev.apollodata.com/angular
+root: /angular/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
