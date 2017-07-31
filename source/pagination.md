@@ -133,7 +133,7 @@ class FeedComponent {
       // We are able to figure out which offset to use because it matches
       // the feed length, but we could also use state, or the previous
       // variables to calculate this (see the cursor example below)
-      updateQuery: (prev, { fetchMoreResult }) => {
+      updateQuery: (previousResult, { fetchMoreResult }) => {
         const previousEntry = previousResult.entry;
         const newComments = fetchMoreResult.comments.nextComments;
 
